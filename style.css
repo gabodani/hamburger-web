@@ -1,255 +1,317 @@
-html,body{
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-    background-color:rgba(30, 30, 30, 1)
-}
-.conatainer{
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-}
-.header{
-    width:100%;
-    height:70px;
-    display:flex;
-    margin-top:20px;
-}
-.company{
-    color:white;
-    font-family:"Bowlby one";
-    display: flex;
-    gap: 10px;
-    width: 15%;
-    height: 100%;
-    align-items: center;
-    padding-left: 7%;
-    font-size: 20px;
-}
-.about,.menu{
-    font-family:"Bowlby one";
-    color:white;
-}
-.params{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 75px;
-    align-items: center;
-    font-size: 18px;
-    padding-right:7%;
-}
-.online{
-    width: 170px;
-    background-color: rgba(179, 160, 205, 1);
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-width: 0;
-    font-family:"Bowlby one";
-}
-.big_text{
-    color: white;
-    font-size: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 290px;
-    font-family:"Bowlby one";
-    margin-top:35px;
-    line-height:100%;
-}
-.picture{
-    display:flex;
-    justify-content:Center;
-}
-.middle{
-    background-color:rgba(209, 239, 83, 1);
-    width:1300px;
-    border-style: solid;
-    border-width: 0;
-    border-radius: 20px;
-    height:370px;
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-    align-items: center;
-}
-.middle_div{
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-.hamburger{
-    font-size:70px;
-    font-family:"Bowlby one";
-    line-height:70px;
-}
-.second_text{
-    font-family:"Inter";
-    font-weight: 600;
-    font-size: 20px;
-}
-.second{
-    display: flex;
-    flex-direction: column;
-    gap: 90px;
-}
-.second_button{
-    width: 175px;
-    height: 60px;
-    background-color: rgba(179, 160, 205, 1);
-    box-shadow: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:"Bowlby one";
-}
-.menuu{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-}
-.afisha_text{
-    font-family:"Bowlby one";
-    color:rgba(209, 239, 83, 1);
-    font-size: 90px;
-}
-.afisha{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.restaurant{
-    display: flex;
-    justify-content: center;
-}
-.come,.orderr{
-    color:white;
-    font-family:"Bowlby one";
-    font-size: 70px;
-    line-height: 75px;
-}
-.main_button{
-    font-family: "Bowlby one";font-family: "Bowlby one";
-    background-color: rgba(209, 239, 83, 1);
-    width: 200px;
-    height: 50px;
-    border-style: solid;
-    border-width: 0;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.extra{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 55px;
-}
-.footer{width:1350px;
-    height:320px;
-    background-color: rgba(179, 160, 205, 1);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-style: solid;
-    border-width: 0;
-    border-radius: 20px;
-}
-.franchise{
-    font-family: "Bowlby one";
-    font-size:25px;
-}
-.main{
-    display: flex;
-    justify-content: center;
-    margin-top:30px;
-}
-.morree,.time,.newsletter{
-    font-family: "Bowlby one";
-}
-.more{display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 65px;
-    font-family:"acme";
-}
-.hours{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-family:"acme";
-    margin-top:35px;
-}
-.search{
-    border-style: solid;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#enter{background-color: rgba(179, 160, 205, 1);
-    height: 90%;
-    border-width: 0;}
-    textarea:focus,input:focus{
-        outline:none;
-        font-family:"acme";
-        font-size:20px;
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        background-color:rgba(30, 30, 30, 1)
     }
-    .submit{
+    .conatainer{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+    }
+    .header{
+        width:100%;
+        height:70px;
+        display:flex;
+        margin-top:20px;
+    }
+    .company{
+        color:white;
+        font-family:"Bowlby one";
+        display: flex;
+        gap: 10px;
+        width: 15%;
+        height: 100%;
+        align-items: center;
+        padding-left: 7%;
+        font-size: 20px;
+    }
+    .about,.menu{
+        font-family:"Bowlby one";
+        color:white;
+    }
+    .params{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 75px;
+        align-items: center;
+        font-size: 18px;
+        padding-right:7%;
+    }
+    .online{
+        width: 170px;
+        background-color: rgba(179, 160, 205, 1);
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-width: 0;
+        font-family:"Bowlby one";
+    }
+    .big_text{
+        color: white;
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 290px;
+        font-family:"Bowlby one";
+        margin-top:35px;
+        line-height:100%;
+    }
+    .picture{
+        display:flex;
+        justify-content:Center;
+    }
+    .middle{
+        background-color:rgba(209, 239, 83, 1);
+        width:1300px;
+        border-style: solid;
+        border-width: 0;
+        border-radius: 20px;
+        height:370px;
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        align-items: center;
+    }
+    .middle_div{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .hamburger{
+        font-size:70px;
+        font-family:"Bowlby one";
+        line-height:70px;
+    }
+    .second_text{
+        font-family:"Inter";
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+    }
+    .second_button{
+        width: 175px;
+        height: 60px;
+        background-color: rgba(179, 160, 205, 1);
+        box-shadow: 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:"Bowlby one";
+    }
+    .menuu{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .afisha_text{
+        font-family:"Bowlby one";
+        color:rgba(209, 239, 83, 1);
+        font-size: 90px;
+    }
+    .afisha{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .restaurant{
+        display: flex;
+        justify-content: center;
+    }
+    .come,.orderr{
+        color:white;
+        font-family:"Bowlby one";
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .main_button{
+        font-family: "Bowlby one";font-family: "Bowlby one";
+        background-color: rgba(209, 239, 83, 1);
+        width: 200px;
+        height: 50px;
+        border-style: solid;
+        border-width: 0;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .extra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55px;
+    }
+    .footer{width:1350px;
+        height:320px;
+        background-color: rgba(179, 160, 205, 1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-width: 0;
+        border-radius: 20px;
+    }
+    .franchise{
+        font-family: "Bowlby one";
+        font-size:25px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        margin-top:30px;
+    }
+    .morree,.time,.newsletter{
         font-family: "Bowlby one";
     }
-
-    @media(max-width:950px){
-        .container{width:100%}
-        .company{font-size: 15px;
-            padding: 0;gap:6;}
-            .params{        padding: 0;
-                font-size: 12px;
-                gap:7px;
+    .more{display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 65px;
+        font-family:"acme";
+    }
+    .hours{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family:"acme";
+        margin-top:35px;
+    }
+    .search{
+        border-style: solid;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #enter{background-color: rgba(179, 160, 205, 1);
+        height: 90%;
+        border-width: 0;}
+        textarea:focus,input:focus{
+            outline:none;
+            font-family:"acme";
+            font-size:20px;
         }
-        .online{
-            width:55px;}
-            .big_text{font-size:44px;
-            text-align:center;}
-            .burgers{width:100%}
-            .middle{width:100%;gap:0;}
-            .hamburger{font-size: 25px;
-                line-height: 30px;}
-                .second_text{font-size:13px;}
-                .second_button{width: 120px;
-                    margin-left: 20px;}
-                    .second{gap:30px;}
-                    .fry{width:45%}
-                    .pyramid{
-                        width:45%
-                    }
-                    .afisha_text{font-size: 37px;
-                        text-align: center;}
-                        .people{width:100%}
-                        .orderr{font-size: 42px;}
-                        .come{
-                            font-size:46px;
+        .submit{
+            font-family: "Bowlby one";
+        }
+
+        @media only screen and (max-width:950px){
+            .container{width:100%}
+            .company{font-size: 15px;
+                padding: 0;gap:6;}
+                .params{        padding: 0;
+                    font-size: 12px;
+                    gap:7px;
+            }
+            .online{
+                width:55px;}
+                .big_text{font-size:44px;
+                text-align:center;}
+                .burgers{width:100%}
+                .middle{width:100%;gap:0;}
+                .hamburger{font-size: 25px;
+                    line-height: 30px;}
+                    .second_text{font-size:13px;}
+                    .second_button{width: 100%;}
+                        .second{gap:30px;}
+                        .fry{width:45%}
+                        .pyramid{
+                            width:45%
                         }
-                        .footer{
-                            width:100%;
-                        }
-                        .franchise{font-size:15px;}
-                        .more{margin: 0;
-                            font-size: 10px;}
-                            .hours{
-                                margin-top:-22px;
-                            font-size: 10px
+                        .afisha_text{font-size: 37px;
+                            text-align: center;}
+                            .people{width:100%}
+                            .orderr{font-size: 45px;}
+                            .come{
+                                font-size:46px;
                             }
-                            #enter{width:110px;}
-                            .newsletter{font-size: 10px;
-                                text-align: center;}
+                            .footer{
+                                width:100%;
+                            }
+                            .franchise{font-size:15px;}
+                            .more{margin: 0;
+                                font-size: 10px;}
+                                .hours{
+                                    margin-top:-22px;
+                                font-size: 10px
+                                }
+                                #enter{width:110px;}
+                                .newsletter{font-size: 10px;
+                                    text-align: center;}
+                                    .come{line-height:45px;}
+                                    .orderr{line-height:45px;}
+    }
+    @media only screen and (max-width: 1200px) {
+        .container {
+            width: 100%;
+        }
+        .big_text {
+            font-size: 50px;
+            text-align: center;
+        }
+        .middle {
+            width: 90%;
+            gap: 50px;
+        }
+        .hamburger {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        .second_text {
+            font-size: 18px;
+        }
+        .second_button {
+            width: 100%;
+        }
+        .second {
+            gap: 50px;
+        }
+        .fry, .pyramid {
+            width: 45%;
+        }
+        .afisha_text {
+            font-size: 55px;
+            text-align: center;
+        }
+        .orderr {
+            font-size: 60px;
+        }
+        .come {
+            font-size: 60px;
+        }
+        .footer {
+            width: 90%;
+        }
+        .franchise {
+            font-size: 20px;
+        }
+        .more {
+            font-size: 15px;
+        }
+        .hours {
+            font-size: 15px;
+        }
+        #enter {
+            width: 130px;
+        }
+        .newsletter {
+            font-size: 15px;
+            text-align: center;
+        }
+        .come, .orderr {
+            line-height: 60px;
+        }
     }
